@@ -1,6 +1,6 @@
 # macOS
 .DS_Store
-
+.DEPLOY_SERVER.md
 # Env / secrets
 .env
 .env.*

@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/**/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+backend/.venv/
+
+# Uploads / runtime data
+backend/uploads/
+backend/*.db
+backend/*.sqlite3
+
+# Node / Angular
+node_modules/
+.angular/
+dist/
+coverage/
+frontend/tyre-frontend/.angular/
+frontend/tyre-frontend/dist/
+frontend/tyre-frontend/node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+*.pid
+*.seed
+*.pid.lock
